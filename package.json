@@ -1,6 +1,14 @@
 {
-  "devDependencies": {
-    "browser-sync": "^3.0.4",
-    "html-validate": "^10.0.0"
-  }
+"name": "learning-git-2",
+"version": "1.0.0",
+"description": "",
+"scripts": {
+"serve": "browser-sync start --server --files \"css/*.css\" \"*.html\"",
+"validate:html": "html-validate \"**/*.html\""
+},
+"license": "ISC",
+"devDependencies": {
+"browser-sync": "^2.29.3",
+"html-validate": "^9.0.0"
+}
 }
